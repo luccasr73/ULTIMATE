@@ -126,7 +126,7 @@ h1 {
 @media (max-width: 759px){
 #fullpage h1, #fullpage h2 {
     margin-top: 30px;
-    font-size: 200%;
+    font-size: 150%;
 }
 }
 @media (min-width: 768px){
