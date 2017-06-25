@@ -103,7 +103,7 @@ h1 {
     color: #0073ab;
     background-color: #fff;
     border-color: rgba(204, 204, 204, 0.13);
-    padding: 12px;
+    padding: 10px;
     border: 20px;
 }
 .btn-default:hover {
@@ -111,13 +111,13 @@ h1 {
     color: #0073ab;
     background-color: #caeeed;
     border-color: rgba(204, 204, 204, 0.13);
-    padding: 12px;
+    padding: 10px;
     border: 20px;
 }
 /*mediaqueries*/
 @media (max-width: 480px){
 #fullpage  .btn {
-    font-size: 80%;
+    font-size: 90%;
     width: 100%;
 }
 }
