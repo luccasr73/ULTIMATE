@@ -64,14 +64,18 @@
 		</div>
 	</div>
 	<div class="section " id="section1">
+	
 	    <div class="slide" id="slide1">
-			<div >
-				<h1>2</h1>
+			<div class="marginleft100 marginright100">
+			<h4>A <strong>Ultimate</strong> é uma consultoria financeira que assessora investidores e empresários das mais variadas características na tomada de decisão de investimentos e empréstimos<br><small>Somos totalmente independentes, possuindo vínculo apenas com nossos clientes</small></h4>
 			</div>
 		</div>
 
 	    <div class="slide" id="slide2">
-			<h1>3</h1>
+			<h1>slide2</h1>
+		</div>
+		<div class="slide" id="slide3">
+			<h1>slide3</h1>
 		</div>
 
 	</div>
@@ -99,11 +103,28 @@
 			   
 				keyboardScrolling: true,
 				css3: true,
-				sectionsColor: ['#000066', '#1BBC9B', '#7E8F7C']
-				
-
-			});
+				sectionsColor: ['','#000066', '#1BBC9B', '#7E8F7C'],
+		
+		onLeave: function(index, nextIndex, direction){
+		//it won't scroll if the destination is the 3rd section
+		if(nextIndex == 2){
+			$( "a" ).addClass( "colorblue" );
+			$( "#section1" ).addClass( "colorblue" );
+			$( ".icon-bar" ).addClass( "backgroundblue" );
+		}
+		else
+		{
+		$( "a" ).removeClass( "colorblue" );
+		$( "#section1" ).removeClass( "colorblue" );
+		$( ".icon-bar" ).removeClass( "backgroundblue" );
+		
+		}
+	}
+		
+		
 		});
+	});
+		
 	</script>
 
 </body>

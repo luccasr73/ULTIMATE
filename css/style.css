@@ -12,7 +12,21 @@ body {
 	height: 70px;
     margin-bottom: 0px;
 }
+.colorblue{
+	color: #008fd4 !important;
+}
+.backgroundblue{
+	background-color:#008fd4 !important;
+}
 
+.marginleft100{
+	
+    margin-left: 100px;
+}
+.marginright100{
+	margin-right: 100px;
+ 
+}
 .navbar-default .navbar-nav>li>a {
 	color:#fff;
 }
@@ -67,6 +81,17 @@ body {
     background-image: url(../img/fundosection0.jpg);
 	background-position: center center;
 	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+#section1{
+    background-image: url(../img/fundosection1.jpg);
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 .noMarginTop {
     margin-top: 0 !important;
