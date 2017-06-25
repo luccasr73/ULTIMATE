@@ -1,0 +1,140 @@
+body {
+    background: #fff;
+    font-family: "Source Sans Pro",Arial,Helvetica,sans-serif;
+	color:#fff;
+}
+.imagemnav{
+	max-height: 45px;
+}
+.navbar-default {
+    background-color: rgba(248, 248, 248, 0);
+    border-color: rgba(231, 231, 231, 0);
+	height: 70px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:#fff;
+}
+.navbar-default .navbar-nav>li>a :hover{
+	color:#fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color:#fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgba(0, 0, 102, 0);
+    margin-top: 10px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 34px;
+    height: 3px;
+    border-radius: 1px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fffefe;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.collapse.in {
+    background-color: #000066;
+}
+.collapsing {
+	background-color: #000066;
+}
+#section0{
+    background-image: url(../img/fundosection0.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.noMarginTop {
+    margin-top: 0 !important;
+}
+.noMarginBottom{
+	margin-bottom: 0 !important;
+}
+.MarginTop30{
+	margin-top: 30px;
+}
+.section{
+	text-align:center;
+}
+.fontweight300{
+	font-weight: 300;
+}
+.navbar-collapse >.collapse .in{
+	background-color:#fff;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+#fullpage h1, #fullpage h2 {
+    font-size: 250%;
+    margin-bottom: 0;
+}
+.btn-default {
+   
+    color: #0073ab;
+    background-color: #fff;
+    border-color: rgba(204, 204, 204, 0.13);
+    padding: 12px;
+    border: 20px;
+}
+.btn-default:hover {
+   
+    color: #0073ab;
+    background-color: #caeeed;
+    border-color: rgba(204, 204, 204, 0.13);
+    padding: 12px;
+    border: 20px;
+}
+/*mediaqueries*/
+@media (max-width: 480px){
+#fullpage  .btn {
+    font-size: 80%;
+    width: 100%;
+}
+}
+@media (max-width: 759px){
+#fullpage h1, #fullpage h2 {
+    margin-top: 30px;
+    font-size: 150%;
+}
+}
+@media (min-width: 768px){
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 50px;
+}
+}
+@media (min-width: 768px){
+.navbar-right {
+    float: right!important;
+    margin-right: 100px;
+}
+}
