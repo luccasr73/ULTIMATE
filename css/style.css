@@ -95,7 +95,7 @@ h1 {
     margin: 0.67em 0;
 }
 #fullpage h1, #fullpage h2 {
-    font-size: 250%;
+    font-size: 350%;
     margin-bottom: 0;
 }
 .btn-default {
@@ -113,7 +113,9 @@ h1 {
     border-color: rgba(204, 204, 204, 0.13);
     padding: 10px;
     border: 20px;
+	
 }
+
 /*mediaqueries*/
 @media (max-width: 480px){
 #fullpage  .btn {
@@ -124,7 +126,7 @@ h1 {
 @media (max-width: 759px){
 #fullpage h1, #fullpage h2 {
     margin-top: 30px;
-    font-size: 150%;
+    font-size: 200%;
 }
 }
 @media (min-width: 768px){
@@ -136,5 +138,20 @@ h1 {
 .navbar-right {
     float: right!important;
     margin-right: 100px;
+}
+#fullpage h1, #fullpage h2 {
+    
+    font-size: 250%;
+}
+}
+@media (min-width: 1024px){
+#fullpage h1, #fullpage h2 {
+    
+    font-size: 300%;
+}
+#fullpage  .btn {
+    font-size:120%;
+	padding-left:25px;
+	padding-right:25px;
 }
 }
