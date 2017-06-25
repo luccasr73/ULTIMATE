@@ -141,7 +141,12 @@ color: #0b95b9;
 	    font-size: 160%;
 		    font-weight: 300;
 }
-
+.setasaibamais:hover{
+	 opacity: 0.5;
+}
+.setasaibamais:active{
+	 opacity: 0.5;
+}
 /*mediaqueries*/
 @media (max-width: 480px){
 #fullpage  .btn {
