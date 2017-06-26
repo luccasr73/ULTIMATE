@@ -181,6 +181,7 @@ color: #0b95b9;
 .imgslide{
 	width:15%;
 }
+
 /*mediaqueries*/
 @media (max-width: 480px){
 #fullpage  .btn {
@@ -218,7 +219,11 @@ color: #0b95b9;
     
     font-size: 300%;
 }
-#section1 h2, #section2 h2 {
+#section1 h2 {
+    
+    font-size: 200%;
+}
+ #section2 h2 {
     
     font-size: 250%;
 }
@@ -226,5 +231,13 @@ color: #0b95b9;
     font-size:120%;
 	padding-left:25px;
 	padding-right:25px;
+}
+.marginLR150{
+	margin-left:150px;
+	margin-right:150px;
+}
+.marginLR250{
+	margin-left:250px;
+	margin-right:250px;
 }
 }
