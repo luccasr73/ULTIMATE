@@ -191,10 +191,11 @@ color: #0b95b9;
 	 opacity: 0.5;
 }
 .alinhatexto{
-	text-align:justify;
+	text-align:center;
 }
 .imgslide{
-	width:15%;
+	width:25%;
+	image-rendering: auto;
 }
 
 /*mediaqueries*/
@@ -211,9 +212,6 @@ color: #0b95b9;
 }
 .imgslide{
 	width:30%;
-}
-.alinhatexto{
-	text-align:center;
 }
 }
 @media (min-width: 768px){
