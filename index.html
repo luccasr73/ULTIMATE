@@ -64,27 +64,38 @@
 		</div>
 	</div>
 	<div class="section " id="section1">
+		<div class="col-xs-12">
+		<img src="img/logo.jpg">
+			<h2>A <strong>Ultimate</strong> é uma consultoria financeira que assessora investidores e empresários das mais variadas características na tomada de decisão de investimentos e empréstimos.</h2>
+		</div>
+	</div>
+	<div class="section " id="section2">
 	
 	    <div class="slide" id="slide1">
 			<div class="marginleft60 marginright60">
-			<h4>Somos totalmente independentes, possuindo vínculo apenas com nossos clientes</h4>
+			<img src="img/unlock.png">
+			<h2>Somos totalmente <strong>independentes</strong>, possuindo vínculo apenas com nossos clientes</h2>
 			</div>
 		</div>
 
 	    <div class="slide" id="slide2">
-			<h1>slide2</h1>
+		<div class="marginleft60 marginright60">
+			<h3>Atendemos nossos clientes com a mesma excelência que gostaríamos de ser atendidos.</h3>
+		</div>
 		</div>
 		<div class="slide" id="slide3">
-			<h1>slide3</h1>
+		<div class="marginleft60 marginright60">
+			<h3>Nossos clientes são a única razão de existirmos e, sendo assim, sempre os atenderemos da forma mais exclusiva e próxima que seja possível</h3>
+		</div>
 		</div>
 
 	</div>
-	<div class="section " id="section2">
+	<div class="section " id="section3">
 		<div >
 			<h1>4</h1>
 		</div>
 	</div>
-	<div class="section" id="section3">
+	<div class="section" id="section4">
 		<div >
 			<h1>5</h1>
 		</div>
@@ -111,13 +122,20 @@
 			$( "a" ).addClass( "colorblue" );
 			$( "#section1" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
+			//$( "#menumobile" ).addClass( "backgroundwhite" );
+		}
+		else if(nextIndex == 3){
+			$( "a" ).addClass( "colorblue" );
+			$( "#section2" ).addClass( "colorblue" );
+			$( ".icon-bar" ).addClass( "backgroundblue" );
+			//$( "#menumobile" ).addClass( "backgroundwhite" );
 		}
 		else
 		{
 		$( "a" ).removeClass( "colorblue" );
-		$( "#section1" ).removeClass( "colorblue" );
+		$( "#section2" ).removeClass( "colorblue" );
 		$( ".icon-bar" ).removeClass( "backgroundblue" );
-		
+		//$( "#menumobile" ).removeClass( "backgroundwhite" );
 		}
 	}
 		

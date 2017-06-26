@@ -18,6 +18,9 @@ body {
 .backgroundblue{
 	background-color:#008fd4 !important;
 }
+.backgroundwhite{
+	background-color:#fff !important;
+}
 
 .marginleft60{
 	
@@ -85,7 +88,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-#section1{
+#section1, #section2{
     background-image: url(../img/fundosection1.jpg);
 	background-position: center center;
 	background-size: cover;
@@ -193,13 +196,13 @@ color: #0b95b9;
     float: right!important;
     margin-right: 100px;
 }
-#fullpage h1, #fullpage h2, #fullpage h4 {
+#fullpage h1, #fullpage h2 {
     
     font-size: 250%;
 }
 }
 @media (min-width: 1024px){
-#fullpage h1, #fullpage h2, #fullpage h4  {
+#fullpage h1, #fullpage h2  {
     
     font-size: 300%;
 }
