@@ -143,15 +143,15 @@ h1 {
     border: 20px;
 	
 }
-.setasaibamais{
+.seta{
     bottom: 0;
     position: absolute;
     padding-left: 0px;
     left: 0px;
     padding-bottom: 25px;
-	
+	z-index:10;
 }
-.setasaibamais>a{
+.seta>a{
 	text-decoration:none;
 }
 .iconesaibamais{
@@ -162,17 +162,32 @@ color: #0b95b9;
     border-radius: 50px;
     cursor:pointer;
 }
+.iconeconheca {
+    font-size: 25px !important;
+    color: #fbfbfb;
+    background-color: #0f95d6;
+    padding: 7px;
+    border-radius: 50px;
+    cursor: pointer;
+}
 .textosaibamais{
 	display:block;
 	color: #fff;
 	text-decoration:none;
-	    font-size: 160%;
-		    font-weight: 300;
+	font-size: 160%;
+    font-weight: 300;
 }
-.setasaibamais:hover{
+.textoconheca{
+	display:block;
+	color: #0f95d6;
+	text-decoration:none;
+	font-size: 160%;
+    font-weight: 300;
+}
+.seta:hover{
 	 opacity: 0.5;
 }
-.setasaibamais:active{
+.seta:active{
 	 opacity: 0.5;
 }
 .alinhatexto{
