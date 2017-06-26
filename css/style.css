@@ -175,7 +175,7 @@ color: #0b95b9;
 .setasaibamais:active{
 	 opacity: 0.5;
 }
-.justify{
+.alinhatexto{
 	text-align:justify;
 }
 .imgslide{
@@ -196,6 +196,9 @@ color: #0b95b9;
 .imgslide{
 	width:30%;
 }
+.alinhatexto{
+	text-align:center;
+}
 }
 @media (min-width: 768px){
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -214,6 +217,10 @@ color: #0b95b9;
 #fullpage h1, #fullpage h2  {
     
     font-size: 300%;
+}
+#section1 h2, #section2 h2 {
+    
+    font-size: 250%;
 }
 #fullpage  .btn {
     font-size:120%;
