@@ -3,6 +3,22 @@ body {
     font-family: "Source Sans Pro",Arial,Helvetica,sans-serif;
 	color:#fff;
 }
+footer{
+position: absolute;
+    bottom: 0;
+	width:100%;
+	left: 0;	
+}
+.quebralinha{
+	word-break: break-word;
+}
+.titulo{
+	position: absolute;
+    top: -150px;
+    right: 5%;
+    left: 5%;
+}
+
 .imagemnav{
 	max-height: 45px;
 }
@@ -14,6 +30,16 @@ body {
 }
 .colorblue{
 	color: #008fd4 !important;
+}
+.colorwhite{
+	color: #fff !important;
+}
+.borderblue{
+	border-color: #008fd4 !important;
+	border:1px solid !important;
+}
+.marginbottom5p{
+	margin-bottom:5%;
 }
 .backgroundblue{
 	background-color:#008fd4 !important;
@@ -88,7 +114,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-#section1, #section2{
+#section1, #section2, #section3 , #section4, #section5 {
     background-image: url(../img/fundosection1.jpg);
 	background-position: center center;
 	background-size: cover;
@@ -150,11 +176,12 @@ h1 {
     left: 0px;
     padding-bottom: 25px;
 	z-index:10;
+	display:block;
 }
 .seta>a{
 	text-decoration:none;
 }
-.iconesaibamais{
+.iconebranco{
 font-size:25px !important;
 color: #0b95b9;
     background-color: #fff;
@@ -162,7 +189,7 @@ color: #0b95b9;
     border-radius: 50px;
     cursor:pointer;
 }
-.iconeconheca {
+.iconeazul {
     font-size: 25px !important;
     color: #fbfbfb;
     background-color: #0f95d6;
@@ -170,14 +197,14 @@ color: #0b95b9;
     border-radius: 50px;
     cursor: pointer;
 }
-.textosaibamais{
+.textobranco{
 	display:block;
 	color: #fff;
 	text-decoration:none;
 	font-size: 160%;
     font-weight: 300;
 }
-.textoconheca{
+.textoazul{
 	display:block;
 	color: #0f95d6;
 	text-decoration:none;
