@@ -18,6 +18,13 @@ position: absolute;
     right: 5%;
     left: 5%;
 }
+.titulosection{
+	position: absolute;
+    top: 65px;
+    right: 5%;
+    left: 5%;
+	font-size: 200% !important;
+}
 
 .imagemnav{
 	max-height: 45px;
