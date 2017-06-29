@@ -324,6 +324,9 @@
 	<label for="telefone" class="colorblue">Telefone</label>
     <input type="text" class="form-control" id="telefone" maxlength="11" placeholder="Digite seu telefone">
 	
+	<label for="assunto" class="colorblue">Assunto</label>
+	<textarea class="form-control" id="assunto" rows="3" placeholder="Digite o assunto"></textarea>
+	
 	<label for="mensagem" class="colorblue">Mensagem</label>
 	<textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
       </div>
@@ -353,10 +356,14 @@
 	<label for="telefone" class="colorblue">Telefone</label>
     <input type="text" class="form-control celnonodigito" id="telefonewhats" maxlength="11" placeholder="Digite seu telefone">
 	
+	<label for="assuntowhats" class="colorblue">Assunto</label>
+    <input type="text" class="form-control" id="assuntowhats" placeholder="Digite o assunto">
+	
 	<label for="mensagem" class="colorblue">Mensagem</label>
 	<textarea class="form-control" id="mensagemwhats" rows="3" placeholder="Digite sua mensagem"></textarea>
       </div>
       <div class="modal-footer">
+	    <h4 id="sucessowhats" class="colorblue"></h4>
         <button type="button" class="btn btn-default borderblue" data-dismiss="modal">FECHAR</button>
         <button type="button" class="btn btn-default backgroundblue colorwhite" id="enviarwhats">ENVIAR</button>
       </div>
@@ -440,17 +447,23 @@
 	 
 	$('#enviarwhats').on('click',function()
 	{ 
-	/*if()
-	{
-	}*/
 	var nomewhats = $('#nomewhats').val();
 	var emailwhats = $('#emailwhats').val();
 	var telefonewhats = $('#telefonewhats').val();
 	var mensagemwhats = $('#mensagemwhats').val();
-	console.log(telefonewhatstamanho);
-	/*var preparamsg = 'Nome: '+nomewhats+'\n\rEmail: '+emailwhats+'\n\rTelefone: '+telefonewhats+'\n\r'+mensagemwhats;
+	var assuntowhats = $('#assuntowhats').val();
+	var sucessowhats = $('#sucessowhats');
+	if(nomewhats!='' && emailwhats!='' && telefonewhats!='' && mensagemwhats!=''  && assuntowhats!='')
+	{
+	var preparamsg = 'Nome:'+nomewhats+', Email:'+emailwhats+', Telefone:'+telefonewhats+', Assunto:'+assuntowhats+', Mensagem:'+mensagemwhats;
 	var link = 'https://api.whatsapp.com/send?phone=5511980161318&text='+preparamsg;
-	window.open(link, '_blank');*/
+	window.open(link, '_blank');
+	sucessowhats.text('Obrigado pela sua mensagem, responderemos o mais breve possivel.');
+	}
+	else{
+	sucessowhats.text('Por favor preenchar todos os campos.');
+	
+	}
 	});
 			
 	</script>
