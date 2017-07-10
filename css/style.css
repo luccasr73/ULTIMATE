@@ -9,6 +9,9 @@ position: absolute;
 	width:100%;
 	left: 0;	
 }
+.quebralinha{
+	word-break: break-word;
+}
 .titulo{
 	position: absolute;
     top: -150px;
