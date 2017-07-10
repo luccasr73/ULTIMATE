@@ -356,19 +356,19 @@
       </div>
       <div class="modal-body">
      <label for="email" class="colorblue">Endereço de email</label>
-    <input type="email" class="form-control" id="emailwhats" placeholder="Digite seu endereço de email">
+    <input type="email" class="form-control" id="emailwhats" placeholder="Digite seu endereço de email" required>
 	
 	<label for="nome" class="colorblue">Nome</label>
-    <input type="text" class="form-control" id="nomewhats" placeholder="Digite seu Nome">
+    <input type="text" class="form-control" id="nomewhats" placeholder="Digite seu Nome" required>
 	
-	<label for="telefone" class="colorblue">Telefone</label>
-    <input type="text" class="form-control celnonodigito" id="telefonewhats" maxlength="11" placeholder="Digite seu telefone">
+	<label for="telefone" class="colorblue">Celular</label>
+    <input type="text" class="form-control celnonodigito" id="telefonewhats" maxlength="11" placeholder="Digite seu telefone" required>
 	
 	<label for="assuntowhats" class="colorblue">Assunto</label>
-    <input type="text" class="form-control" id="assuntowhats" placeholder="Digite o assunto">
+    <input type="text" class="form-control" id="assuntowhats" placeholder="Digite o assunto" required>
 	
 	<label for="mensagem" class="colorblue">Mensagem</label>
-	<textarea class="form-control" id="mensagemwhats" rows="3" placeholder="Digite sua mensagem"></textarea>
+	<textarea class="form-control" id="mensagemwhats" rows="3" placeholder="Digite sua mensagem" required></textarea>
       </div>
       <div class="modal-footer">
 	    <h4 id="sucessowhats" class="colorblue"></h4>
@@ -388,57 +388,49 @@
 	
 
 	<script type="text/javascript">
-	/*$('#telefonewhats').blur(function(){
-
-	 $( '#telefonewhats' ).addClass(' celnonodigito');
-    
-	});*/
-	
+		
 	$(document).ready(function() {
 			$('#fullpage').fullpage({
 			    anchors: ['home', 'sobre', 'sobre2','servicos', 'equipe', 'contato'],
 				keyboardScrolling: true,
 				css3: true,
 				sectionsColor: ['','#000066', '#1BBC9B', '#7E8F7C'],
-						
+			//mudar cores ao sair de uma section			
 		onLeave: function(index, nextIndex, direction){
-		//it won't scroll if the destination is the 3rd section
 		if(nextIndex == 2){
 			$( "a" ).addClass( "colorblue" );
 			$( "#section1" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
-			//$( "#menumobile" ).addClass( "backgroundwhite" );
+			
 		}
 		else if(nextIndex == 3){
 			$( "a" ).addClass( "colorblue" );
 			$( "#section2" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
-			//$( "#menumobile" ).addClass( "backgroundwhite" );
+		
 		}
 		else if(nextIndex == 4){
 			$( "a" ).addClass( "colorblue" );
 			$( "#section3" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
-			//$( "#menumobile" ).addClass( "backgroundwhite" );
+			
 		}
 		else if(nextIndex == 5){
 			$( "a" ).addClass( "colorblue" );
 			$( "#section4" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
-			//$( "#menumobile" ).addClass( "backgroundwhite" );
+			
 		}
 		else if(nextIndex == 6){
 			$( "a" ).addClass( "colorblue" );
 			$( "#section5" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
-			//$( "#menumobile" ).addClass( "backgroundwhite" );
-		}
+					}
 		else
 		{
 		$( "a" ).removeClass( "colorblue" );
 		$( "#section2" ).removeClass( "colorblue" );
 		$( ".icon-bar" ).removeClass( "backgroundblue" );
-		//$( "#menumobile" ).removeClass( "backgroundwhite" );
 		}
 		}
 	});
@@ -452,7 +444,7 @@
 		else{
 		$( ".slidemobile" ).remove();
 		}
-	 
+	 //validação form contato whatsapp
 	$('#enviarwhats').on('click',function()
 	{ 
 	var nomewhats = $('#nomewhats').val();
@@ -473,10 +465,14 @@
 	
 	}
 	});
-			
+	//fim validação form contato whatsapp	
+	$('#contatowhats').on('hide.bs.modal', function (e) {
+	var sucessowhats = $('#sucessowhats');
+   sucessowhats.text('');
+   })
 	</script>
 	<script>
-	    $('.celnonodigito').mask('(00) 00000-0000').trigger('mask.jquerymask');
+	    $('.celnonodigito').mask('(00) 0 0000-0000').trigger('mask.jquerymask');
 	</script>
 
 </body>
