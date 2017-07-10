@@ -32,6 +32,11 @@ position: absolute;
 .imagemnavmobile{
 	max-height: 70px;
 }
+.imagemmenumobile{
+	max-height: 70px;
+	float:left;
+	padding-right:10px;
+}
 .navbar-default {
     background-color: rgba(248, 248, 248, 0);
     border-color: rgba(231, 231, 231, 0);
@@ -236,7 +241,13 @@ color: #0b95b9;
 	width:25%;
 	image-rendering: auto;
 }
-
+.semborda{
+	border:none;
+	    border-radius: 0;
+}
+.margin0{
+	margin:0;
+}
 
 /*mediaqueries*/
 @media (max-width: 480px){
