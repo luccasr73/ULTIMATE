@@ -83,7 +83,13 @@ position: absolute;
 .backgroundwhite{
 	background-color:#fff !important;
 }
-
+.width100porcento{
+	width:100%;
+}
+.textocentralizado{
+	text-align: center;
+    text-align: -webkit-center;
+}
 .marginleft60{
 	
     margin-left: 60px;
@@ -322,5 +328,35 @@ color: #0b95b9;
 .marginLR250{
 	margin-left:250px;
 	margin-right:250px;
+}
+}
+@media (max-height: 320px) {
+	#fullpage h1, #fullpage h2  {
+    font-size: medium;
+	margin-top: 0px ;
+}
+.MarginTop30{
+	    margin-top: 0px;
+}
+.textoazul, .textobranco{
+	font-size: medium;
+}
+.imgslide{
+	    width: 25%;
+}
+.celularlowresolution{
+	  width: 25%;
+}
+h3 {
+    font-size: 1.5rem;
+}
+.seta{
+	    padding-bottom: 0px;
+}
+.titulo{
+	top: -40px;
+}
+#fullpage .btn {
+    font-size: 1rem;
 }
 }
