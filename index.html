@@ -30,7 +30,8 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.html">
-      <img alt="Brand" src="img/u.png" class="img-responsive imagemnav">
+      <img alt="Brand" src="img/logo.jpg" class="img-responsive imagemnav hidden-sm hidden-xs">
+	  <img alt="Brand" src="img/logo.jpg" class="img-responsive imagemnavmobile hidden-lg hidden-md">
       </a>
     </div>
 	
@@ -40,13 +41,14 @@
 		<li><a href="#">NOSSA EQUIPE</a></li>
 		<li><a href="#">GOVERNANÇA</a></li>
 		<li><a href="#">CONTATO</a></li>
+		<li><a href="#">ABRA SUA CONTA</a></li>
       </ul>
     </div>
 	  </div>
 </nav>
 
 <div id="fullpage">
-	<div class="section" id="section0">
+	<div class="section " id="section0">
 		<div class="container">
 		<div class="cabecalhosection0">
 			<h2 class="noMarginBottom fontweight300 MarginTop30">Bem-vindo à <strong>Ultimate Investimentos</strong></h2>
@@ -316,19 +318,19 @@
       </div>
       <div class="modal-body">
      <label for="email" class="colorblue">Endereço de email</label>
-    <input type="email" class="form-control" id="email" placeholder="Digite seu endereço de email">
+    <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu endereço de email">
 	
 	<label for="nome" class="colorblue">Nome</label>
-    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+    <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome">
 	
 	<label for="telefone" class="colorblue">Telefone</label>
-    <input type="text" class="form-control" id="telefone" maxlength="11" placeholder="Digite seu telefone">
+    <input type="text" class="form-control" id="telefone" name="telefone" maxlength="11" placeholder="Digite seu telefone">
 	
 	<label for="assunto" class="colorblue">Assunto</label>
-	<textarea class="form-control" id="assunto" rows="3" placeholder="Digite o assunto"></textarea>
+	 <input type="text" class="form-control" id="assunto" name="assunto" placeholder="Digite o assunto">
 	
 	<label for="mensagem" class="colorblue">Mensagem</label>
-	<textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
+	<textarea class="form-control" id="mensagem" rows="3" name="mensagem" placeholder="Digite sua mensagem"></textarea>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default borderblue" data-dismiss="modal">FECHAR</button>
