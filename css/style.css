@@ -330,7 +330,6 @@ color: #0b95b9;
 	margin-right:250px;
 }
 }
-@media (max-height: 639px) {
 	#fullpage h1, #fullpage h2  {
     font-size: medium;
 	margin-top: 0px ;
