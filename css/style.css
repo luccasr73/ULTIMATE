@@ -9,9 +9,6 @@ position: absolute;
 	width:100%;
 	left: 0;	
 }
-.quebralinha{
-	word-break: break-word;
-}
 .titulo{
 	position: absolute;
     top: -150px;
@@ -281,6 +278,9 @@ color: #0b95b9;
     font-size:120%;
 	padding-left:25px;
 	padding-right:25px;
+}
+#fullpage h3{
+	 font-size:120%;
 }
 .marginLR150{
 	margin-left:150px;
