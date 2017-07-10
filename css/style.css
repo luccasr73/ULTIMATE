@@ -51,6 +51,9 @@ position: absolute;
 .marginbottom5p{
 	margin-bottom:5%;
 }
+.paddingTop0{
+	padding-top:0 !important;
+}
 .backgroundblue{
 	background-color:#008fd4 !important;
 }
