@@ -37,11 +37,11 @@
 	
 	<div class="collapse navbar-collapse" id="menumobile">     
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">QUEM SOMOS</a></li>
-		<li><a href="#">NOSSA EQUIPE</a></li>
-		<li><a href="#">GOVERNANÇA</a></li>
-		<li><a href="#">CONTATO</a></li>
-		<li><a href="#">ABRA SUA CONTA</a></li>
+        <li><a href="#sobre">QUEM SOMOS</a></li>
+		<li><a href="#servicos">NOSSOS SERVIÇOS</a></li>
+		<li><a href="#equipe">NOSSA EQUIPE</a></li>
+		<li><a href="#contato">CONTATO</a></li>
+	  <li class="btnabrasuaconta" id="liabrasuaconta"><a href="#">ABRA SUA CONTA</a></li>
       </ul>
     </div>
 	  </div>
@@ -390,11 +390,11 @@
       <div class="modal-body">
 	 
       <ul class="nav navbar-nav navbar-left">
-        <li><a class="colorblue" href="#">QUEM SOMOS</a></li>
-		<li><a class="colorblue" href="#">NOSSA EQUIPE</a></li>
-		<li><a class="colorblue" href="#">GOVERNANÇA</a></li>
-		<li><a class="colorblue" href="#">CONTATO</a></li>
-		<li><a class="colorblue" href="#">ABRA SUA CONTA</a></li>
+        <li><a class="colorblue fechamodal" href="#sobre">QUEM SOMOS</a></li>
+		<li><a class="colorblue fechamodal" href="#servicos">NOSSOS SERVIÇOS</a></li>
+		<li><a class="colorblue fechamodal" href="#equipe">NOSSA EQUIPE</a></li>
+		<li><a class="colorblue fechamodal" href="#contato">CONTATO</a></li>
+		<li><a class="colorblue fechamodal" href="#">ABRA SUA CONTA</a></li>
       </ul>
         
       </div>
@@ -424,6 +424,8 @@
 			$( "a" ).addClass( "colorblue" );
 			$( "#section1" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
+			$( "#liabrasuaconta" ).removeClass( "btnabrasuaconta" );
+			$( "#liabrasuaconta" ).addClass( "btnabrasuacontaazul" );
 			
 		}
 		else if(nextIndex == 3){
@@ -454,6 +456,9 @@
 		$( "a" ).removeClass( "colorblue" );
 		$( "#section2" ).removeClass( "colorblue" );
 		$( ".icon-bar" ).removeClass( "backgroundblue" );
+		$( "#liabrasuaconta" ).removeClass( "btnabrasuacontaazul" );
+		$( "#liabrasuaconta" ).addClass( "btnabrasuaconta" );
+			
 		}
 		}
 	});
@@ -492,11 +497,13 @@
 	$('#contatowhats').on('hide.bs.modal', function (e) {
 	var sucessowhats = $('#sucessowhats');
    sucessowhats.text('');
-   })
+   });
+   $('.celnonodigito').mask('(00) 0 0000-0000').trigger('mask.jquerymask');
+   $('.fechamodal').on('click', function (e) {
+	$('#modalmenumobile').modal('hide')
+   });
 	</script>
-	<script>
-	    $('.celnonodigito').mask('(00) 0 0000-0000').trigger('mask.jquerymask');
-	</script>
+	
 
 </body>
 </html>

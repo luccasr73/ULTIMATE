@@ -41,6 +41,20 @@ position: absolute;
 	    margin-top: -10px !important;
     font-size: 35px;
 }
+.btnabrasuaconta{
+	   border: 1px #fff solid;
+    border-radius: 5px;
+}
+.btnabrasuaconta:hover{
+	       opacity: 0.5;
+}
+.btnabrasuacontaazul{
+	   border: 1px #008fd4 solid;
+    border-radius: 5px;
+}
+.btnabrasuacontaazul:hover{
+	       opacity: 0.5;
+}
 .navbar-default {
     background-color: rgba(248, 248, 248, 0);
     border-color: rgba(231, 231, 231, 0);
