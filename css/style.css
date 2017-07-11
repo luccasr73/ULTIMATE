@@ -359,4 +359,7 @@ h3 {
 #fullpage .btn {
     font-size: 1rem;
 }
+.margintop10mobile{
+	margin-top:20px !important;
+}
 }
