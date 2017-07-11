@@ -42,19 +42,13 @@ position: absolute;
     font-size: 35px;
 }
 .btnabrasuaconta{
-	   border: 1px #fff solid;
+	       background: #221e77;
     border-radius: 5px;
 }
 .btnabrasuaconta:hover{
 	       opacity: 0.5;
 }
-.btnabrasuacontaazul{
-	   border: 1px #008fd4 solid;
-    border-radius: 5px;
-}
-.btnabrasuacontaazul:hover{
-	       opacity: 0.5;
-}
+
 .navbar-default {
     background-color: rgba(248, 248, 248, 0);
     border-color: rgba(231, 231, 231, 0);
@@ -273,11 +267,13 @@ color: #0b95b9;
 	margin:0;
 }
 .modal-dialog{
-    overflow-y: initial !important
+    overflow-y: initial !important;
 }
 .modal-body{
-    /*max-height: calc(100vh - 200px);*/
     overflow-y: auto;
+}
+.width20{
+	width: 20px;
 }
 /*mediaqueries*/
 @media (max-width: 480px){

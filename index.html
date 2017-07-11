@@ -36,13 +36,18 @@
     </div>
 	
 	<div class="collapse navbar-collapse" id="menumobile">     
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-left">
         <li><a href="#sobre">QUEM SOMOS</a></li>
 		<li><a href="#servicos">NOSSOS SERVIÇOS</a></li>
 		<li><a href="#equipe">NOSSA EQUIPE</a></li>
 		<li><a href="#contato">CONTATO</a></li>
-	  <li class="btnabrasuaconta" id="liabrasuaconta"><a href="#">ABRA SUA CONTA</a></li>
-      </ul>
+		<li><a href="#"><img class="width20" src="img/br.svg"></a></li>
+		<li><a href="#"><img class="width20" src="img/es.svg"></a></li>
+		<li><a href="#"><img class="width20" src="img/gb.svg"></a></li>
+	  </ul>
+		<ul class="nav navbar-nav navbar-right">
+	  <li class="btnabrasuaconta" id="liabrasuaconta"><a class="colorwhite" href="#">ABRA SUA CONTA</a></li>
+	  </ul>
     </div>
 	  </div>
 </nav>
@@ -55,7 +60,7 @@
 			<h1 class="noMarginTop fontweight300 marginbottom10mobile">Sempre do seu lado!</h1>
 		</div>
 			<div class="MarginTop30 ">
-			<a class="btn btn-default" href="https://www.youtube.com/watch?v=eLYd2rtJtEo" target="_blank" role="button">ACESSE NOSSO CANAL</a>
+			<a class="btn btn-default" href="https://www.youtube.com/watch?v=3h71v0tG59k" target="_blank" role="button">ACESSE NOSSO CANAL</a>
 			</div>
 			<div class="MarginTop30">
 			<h2 class="noMarginBottom fontweight300 MarginTop30 margintop10mobile">Depois de conhecer a Ultimate, você nunca mais irá falar com o banco sobre investimentos</h2>
@@ -398,6 +403,10 @@
 		<li><a class="colorblue fechamodal" href="#equipe">NOSSA EQUIPE</a></li>
 		<li><a class="colorblue fechamodal" href="#contato">CONTATO</a></li>
 		<li><a class="colorblue fechamodal" href="#">ABRA SUA CONTA</a></li>
+		<li><a href="#"><img class="width20" src="img/br.svg"></a></li>
+		<li><a href="#"><img class="width20" src="img/es.svg"></a></li>
+		<li><a href="#"><img class="width20" src="img/gb.svg"></a></li>
+		
       </ul>
         
       </div>
@@ -428,40 +437,45 @@
 			$( "a" ).addClass( "colorblue" );
 			$( "#section1" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
-			$( "#liabrasuaconta" ).removeClass( "btnabrasuaconta" );
-			$( "#liabrasuaconta" ).addClass( "btnabrasuacontaazul" );
+			//$( "#liabrasuaconta" ).removeClass( "btnabrasuaconta" );
+			//$( "#liabrasuaconta" ).addClass( "btnabrasuacontaazul" );
 			
 		}
 		else if(nextIndex == 3){
 			$( "a" ).addClass( "colorblue" );
 			$( "#section2" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
-		
+		    //$( "#liabrasuaconta" ).removeClass( "btnabrasuaconta" );
+			//$( "#liabrasuaconta" ).addClass( "btnabrasuacontaazul" );
 		}
 		else if(nextIndex == 4){
 			$( "a" ).addClass( "colorblue" );
 			$( "#section3" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
-			
+			//$( "#liabrasuaconta" ).removeClass( "btnabrasuaconta" );
+			//$( "#liabrasuaconta" ).addClass( "btnabrasuacontaazul" );
 		}
 		else if(nextIndex == 5){
 			$( "a" ).addClass( "colorblue" );
 			$( "#section4" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
-			
+			//$( "#liabrasuaconta" ).removeClass( "btnabrasuaconta" );
+			//$( "#liabrasuaconta" ).addClass( "btnabrasuacontaazul" );
 		}
 		else if(nextIndex == 6){
 			$( "a" ).addClass( "colorblue" );
 			$( "#section5" ).addClass( "colorblue" );
 			$( ".icon-bar" ).addClass( "backgroundblue" );
+			//$( "#liabrasuaconta" ).removeClass( "btnabrasuaconta" );
+			//$( "#liabrasuaconta" ).addClass( "btnabrasuacontaazul" );
 					}
 		else
 		{
 		$( "a" ).removeClass( "colorblue" );
 		$( "#section2" ).removeClass( "colorblue" );
 		$( ".icon-bar" ).removeClass( "backgroundblue" );
-		$( "#liabrasuaconta" ).removeClass( "btnabrasuacontaazul" );
-		$( "#liabrasuaconta" ).addClass( "btnabrasuaconta" );
+		//$( "#liabrasuaconta" ).removeClass( "btnabrasuacontaazul" );
+		//$( "#liabrasuaconta" ).addClass( "btnabrasuaconta" );
 			
 		}
 		}
