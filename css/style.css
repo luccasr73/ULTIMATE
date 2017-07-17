@@ -27,10 +27,10 @@ position: absolute;
 }
 
 .imagemnav{
-	max-height: 90px;
+	max-height: 120px;
 }
 .imagemnavmobile{
-	max-height: 70px;
+	max-height: 90px;
 }
 .imagemmenumobile{
 	max-height: 70px;
@@ -366,5 +366,8 @@ h3 {
 }
 .marginbottom10mobile{
 	margin-bottom:15px !important;
+}
+.imagemnavmobile{
+	max-height: 70px;
 }
 }
