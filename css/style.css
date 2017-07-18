@@ -92,6 +92,9 @@ position: absolute;
 	margin-right: 60px;
  
 }
+.marginLeft10{
+	margin-left:10%;
+}
 .navbar-default .navbar-nav>li>a {
 	color:#fff;
 }
