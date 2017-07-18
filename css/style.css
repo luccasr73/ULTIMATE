@@ -41,13 +41,13 @@ position: absolute;
 	    margin-top: -10px !important;
     font-size: 35px;
 }
-.btnabrasuaconta{
+.btnabrasuaconta{ 
 	       background: #221e77;
     border-radius: 5px;
 }
-.btnabrasuaconta:hover{
+/*.btnabrasuaconta:hover{
 	       opacity: 0.5;
-}
+}*/
 
 .navbar-default {
     background-color: rgba(248, 248, 248, 0);
@@ -277,6 +277,40 @@ color: #0b95b9;
 }
 .width20{
 	width: 20px;
+}
+@-webkit-keyframes pulse {
+ 0% {
+ -webkit-transform: scale(1, 1);
+}
+ 50% {
+ -webkit-transform: scale(1.1, 1.1);
+}
+ 100% {
+ -webkit-transform: scale(1, 1);
+};
+}
+
+@keyframes pulse {
+ 0% {
+ transform: scale(1, 1);
+}
+ 50% {
+ transform: scale(1.1, 1.1);
+}
+ 100% {
+transform: scale(1, 1);
+};
+}
+
+#liabrasuaconta {
+	
+	-webkit-animation: pulse 1s linear infinite;
+	animation: pulse 1s linear infinite;
+}
+
+#liabrasuaconta:hover {
+	-webkit-animation: none;
+	animation:none;
 }
 /*mediaqueries*/
 @media (max-width: 480px){
