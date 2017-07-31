@@ -23,9 +23,7 @@ position: absolute;
     top: 65px;
     right: 5%;
     left: 5%;
-	font-size: 200% !important;
 }
-
 .imagemnav{
 	max-height: 120px;
 }
@@ -45,9 +43,6 @@ position: absolute;
 	       background: #221e77;
     border-radius: 5px;
 }
-/*.btnabrasuaconta:hover{
-	       opacity: 0.5;
-}*/
 
 .navbar-default {
     background-color: rgba(248, 248, 248, 0);
@@ -90,7 +85,9 @@ position: absolute;
 }
 .marginright60{
 	margin-right: 60px;
- 
+}
+.cabecalhosection h1{
+    font-size: -webkit-xxx-large;
 }
 .marginLeft10{
 	margin-left:10%;
@@ -154,12 +151,8 @@ position: absolute;
     -o-background-size: cover;
 }
 #section1, #section2, #section3 , #section4, #section5 {
-    background-image: url(../img/fundosection1.jpg);
-	background-position: center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-color: #eeeeee;
+background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23ffffff' fill-opacity='0.62' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 .noMarginTop {
     margin-top: 0 !important;
@@ -178,18 +171,6 @@ position: absolute;
 }
 .navbar-collapse >.collapse .in{
 	background-color:#fff;
-}
-h2 {
-    font-size: 1.5em;
-    margin: 0.83em 0;
-}
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-#fullpage h1, #fullpage h2 {
-    font-size: 350%;
-    margin-bottom: 0;
 }
 .btn-default {
    
@@ -241,14 +222,12 @@ color: #0b95b9;
 	display:block;
 	color: #fff;
 	text-decoration:none;
-	font-size: 160%;
     font-weight: 300;
 }
 .textoazul{
 	display:block;
 	color: #0f95d6;
 	text-decoration:none;
-	font-size: 160%;
     font-weight: 300;
 }
 .seta:hover{
@@ -287,7 +266,7 @@ color: #0b95b9;
 }
  100% {
  -webkit-transform: scale(1, 1);
-};
+}
 }
 
 @keyframes pulse {
@@ -299,7 +278,7 @@ color: #0b95b9;
 }
  100% {
 transform: scale(1, 1);
-};
+}
 }
 
 #liabrasuaconta {
@@ -315,14 +294,12 @@ transform: scale(1, 1);
 /*mediaqueries*/
 @media (max-width: 480px){
 #fullpage  .btn {
-    font-size: 90%;
     width: 100%;
 }
 }
 @media (max-width: 759px){
 #fullpage h1, #fullpage h2 {
     margin-top: 30px;
-    font-size: 150%;
 }
 .imgslide{
 	width:30%;
@@ -336,26 +313,10 @@ transform: scale(1, 1);
     float: right!important;
     margin-right: 100px;
 }
-#fullpage h1, #fullpage h2 {
-    
-    font-size: 250%;
 }
-}
+
 @media (min-width: 1024px){
-#fullpage h1, #fullpage h2  {
-    
-    font-size: 300%;
-}
-#section1 h2 {
-    
-    font-size: 200%;
-}
- #section2 h2 {
-    
-    font-size: 250%;
-}
 #fullpage  .btn {
-    font-size:120%;
 	padding-left:25px;
 	padding-right:25px;
 }
@@ -370,33 +331,21 @@ transform: scale(1, 1);
 }
 }
 @media (max-height: 400px) {
-	#fullpage h1, #fullpage h2  {
-    font-size: medium;
-	margin-top: 0px ;
-}
 .MarginTop30{
 	    margin-top: 0px;
 }
-.textoazul, .textobranco{
-	font-size: medium;
-}
+
 .imgslide{
 	    width: 25%;
 }
 .celularlowresolution{
 	  width: 25%;
 }
-h3 {
-    font-size: 1.5rem;
-}
 .seta{
 	    padding-bottom: 0px;
 }
 .titulo{
-	top: -40px;
-}
-#fullpage .btn {
-    font-size: 1rem;
+top: -40px;
 }
 .margintop10mobile{
 	margin-top:20px !important;
