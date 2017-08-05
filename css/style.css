@@ -45,7 +45,7 @@ position: absolute;
 }
 
 .navbar-default {
-    background-color: rgba(248, 248, 248, 0);
+    background-color: #221e77;
     border-color: rgba(231, 231, 231, 0);
 	height: 70px;
     margin-bottom: 0px;
