@@ -5,7 +5,7 @@ body {
 }
 footer{
 position: absolute;
-    bottom: 0;
+   /* bottom: 0;*/
 	left: 0;	
     right: 0;
 }
@@ -346,9 +346,9 @@ color: #0b95b9;
 .imgslide{
 	    width: 25%;
 }
-.celularlowresolution{
+/*.celularlowresolution{
 	  width: 25%;
-}
+}*/
 .seta{
 	    padding-bottom: 0px;
 }
